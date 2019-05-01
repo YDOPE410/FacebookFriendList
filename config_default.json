@@ -1,0 +1,9 @@
+{
+  "login": "",
+  "password": "",
+  "path_to_driver": "./chromedriver",
+  "path_to_save_logs" : "logs/current_date.log",
+  "console_log": true,
+  "log_lvl" : 1,
+  "site" : "http://www.facebook.com"
+}
