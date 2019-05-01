@@ -24,7 +24,7 @@ class Json_config_loader(Config_loader):
     @staticmethod
     def _verify(config):
         logger = Txt_file_logger()
-        if type(config.site) != str or config.site == "":
+        if type(config.site) != str or config.site == "" or not config.site =="http://www.facebook.com":
             logger.debug(f"Config. Set default site {config_default.site}")
             config.site = config_default.site
         if type(config.password) != str or config.password == "":
